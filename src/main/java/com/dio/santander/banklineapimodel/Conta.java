@@ -10,7 +10,6 @@ public class Conta {
 	
 	@Column(name = "conta_saldo")
 	private Double saldo;
-	
 	public Long getNumero() {
 		return numero;
 	}
