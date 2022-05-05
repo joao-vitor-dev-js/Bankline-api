@@ -6,9 +6,9 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import com.dio.santander.banklineapi.dto.NovoCorrentista;
+import com.dio.santander.banklineapi.model.Conta;
+import com.dio.santander.banklineapi.model.Correntista;
 import com.dio.santander.banklineapi.repository.CorrentistaRepository;
-import com.dio.santander.banklineapimodel.Conta;
-import com.dio.santander.banklineapimodel.Correntista;
 
 @Service
 public class CorrentistaService {
